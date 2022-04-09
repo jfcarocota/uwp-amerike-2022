@@ -1,0 +1,34 @@
+{
+    "name": "GameActions",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "bbdf87f7-8374-4903-a30a-8974b7507d63",
+            "actions": [
+                {
+                    "name": "SaveGame",
+                    "type": "Button",
+                    "id": "b0c081a6-6f5f-4232-b114-b3c290203f5c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7b16da1d-76ca-4de5-babc-5e1767e8eeb1",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SaveGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

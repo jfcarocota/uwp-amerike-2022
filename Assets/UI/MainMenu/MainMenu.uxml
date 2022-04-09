@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="MainMenu.uss" />
+    <ui:VisualElement style="align-items: center; justify-content: flex-end;">
+        <ui:Button text="Say Hello" display-tooltip-when-elided="true" name="btnHello" class="primary" style="height: 100px; width: 200px; font-size: 24px;" />
+        <ui:Button text="Say good bye" display-tooltip-when-elided="true" name="btnBye" class="secondary" style="height: 100px; width: 200px; font-size: 24px;" />
+    </ui:VisualElement>
+</ui:UXML>

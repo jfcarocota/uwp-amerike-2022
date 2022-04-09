@@ -1,0 +1,19 @@
+
+Button:hover{
+  background-color: red;
+}
+
+.primary{
+  background-color: #54ba1d;
+}
+
+.secondary{
+  background-color: #56b7e8;
+}
+
+Button{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  color: white;
+}
